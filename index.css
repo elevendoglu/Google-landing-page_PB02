@@ -139,7 +139,27 @@ a:hover {
     height: 36px;
     min-width: 120px;
     background-color: #f2f2f2;
-    border: 1px solid #f8f8f8;
+    border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5f6368;
+}
+
+#btn1:hover,
+#btn2:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222222;
+    cursor: pointer;
+}
+
+#language {
+    text-align: center;
+    margin-top: 32px;
+    font-size: small;
+}
+
+#language a {
+    color: #1967d2;
+    text-decoration: none;
 }
